@@ -1,0 +1,90 @@
+﻿/* 基本の文字色と背景色 */
+body{
+  background-color: #46CDCF !important;
+  color: #48466D;
+  padding-top: 120px !important;
+  margin: 100px !important;
+  margin-top: 0px !important;
+}
+
+
+/* 日付とセッション名 */
+h1 {
+  position: relative;
+  overflow: hidden;
+  padding: 1.5rem 2rem 1.5rem 310px;
+  border-top: 3px solid #48466D;
+}
+
+h1:before {
+  position: absolute;
+  top: -150%;
+  left: -100px;
+  width: 390px;
+  height: 300%;
+  content: '';
+  -webkit-transform: rotate(25deg);
+  transform: rotate(25deg);
+  background: #48466D;
+}
+
+h1 span {
+  font-size: 40px;
+  font-size: 2rem;
+  position: absolute;
+  z-index: 1;
+  top: 1;
+  left: 0;
+  display: block;
+  padding-top: 0px;
+  padding-left: 40px;
+  color: #F6F6F6;
+}
+
+/* PL～埋め込みまでの内容 */
+.detail{
+padding-left: 40px;
+}
+
+/* １セッションのブロック */
+.session{
+margin:2em 0;
+position: relative;
+padding: 0.5em 1.5em;
+border-top: solid 2px #48466D;
+border-bottom: solid 2px #48466D;
+background-color: #F6F6F6;
+}
+.session:before, .session:after{
+content: '';
+position: absolute;
+top: -10px;
+width: 2px;
+height: -webkit-calc(100% + 20px);
+height: calc(100% + 20px);
+background-color: #48466D;
+}
+.session:before {left: 10px;}
+.session:after {right: 10px;}
+.session p {
+margin: 0;
+padding: 0;
+}
+
+/* リンクについて */
+a:link{
+color: #48466D;
+}
+
+a:visited{
+color: #3D84A8;
+}
+
+a:hover{
+color: #46CDCF;
+}
+
+/*　丸ポチ消す */
+ul { 
+  list-style: none; 
+}
