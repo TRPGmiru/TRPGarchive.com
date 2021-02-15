@@ -1,9 +1,18 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>TRPGアーカイブス</title>
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" crossorigin="anonymous"></script>
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet">
+    <!-- Fonts CSS-->
+    <link rel="stylesheet" href="css/heading.css">
+    <link rel="stylesheet" href="css/body.css">
     <link rel="stylesheet" href="css/filter.css">
     <link rel = "stylesheet" href="./css/style01.css">
     <link rel = "stylesheet" href="./css/checkbox.css">
@@ -17,24 +26,25 @@
             <button class="navbar-toggler navbar-toggler-right font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu <i class="fas fa-bars"></i></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="./filter.html">フィルター</a>
-                    </li>
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="./search.html">検索</a>
-                    </li>
+                  <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="./filter.html">フィルター</a>
+                  </li>
+                  <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="./search.html">検索</a>
+                  </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <form>
+    <div class="wrapper">
         <div class="search-box">
-          <input type="checkbox" name="tag" value="ディズム">
-          <input type="checkbox" name="tag" value="ぱぱびっぷ">
-          <input type="checkbox" name="tag" value="むつー">
-          <input type="checkbox" name="tag" value="高生紳士">
-          <input type="checkbox" name="tag" value="夢咲刻夜">
-          <input type="checkbox" name="tag" value="まだら牛">
+            <form>
+                <input type="checkbox" name="tag" value="ディズム">
+                <input type="checkbox" name="tag" value="ぱぱびっぷ">
+                <input type="checkbox" name="tag" value="むつー">
+                <input type="checkbox" name="tag" value="高生紳士">
+                <input type="checkbox" name="tag" value="夢咲刻夜">
+                <input type="checkbox" name="tag" value="まだら牛">
+            </form>
         </div>
-    </form>
 
     <ul class="list"> 
         <li class="list_item" data-tag='["ぱぱびっぷ"]'>
@@ -412,7 +422,7 @@
         <li class="list_item" data-tag='["むつー","高生紳士"]'>
         <div class="session">
         <h1><span>2020/04/10</span>
-        とある幸せな家族の話</h1>
+        <a href="session33.html".html">とある幸せな家族の話</a></h1>
         <div class="detail">
         <h2>GM：高生紳士</h2>
         <h2>PL：ﾀﾗﾁｵ むつー テラゾー にどみ</h2>
@@ -1324,7 +1334,7 @@
         <li class="list_item" data-tag='["ディズム","ぱぱびっぷ","むつー","高生紳士","まだら牛"]'>
         <div class="session">
         <h1><span>2020/08/21</span>
-        未完成漂流記 2冊目</h1>
+        <a href ="./session109.html">未完成漂流記 2冊目</a></h1>
         <div class="detail">
         <h2>GM：高生紳士</h2>
         <h2>PL：ぱぱびっぷ ディズム まだら牛 むつー テラゾー</h2>
@@ -2666,8 +2676,24 @@
         </div>
         </li>
         </ul>
+    </div>
 
-
+    <!-- Copyright Section-->
+    <section class="copyright py-4 text-center text-white">
+        <div class="container"><small class="pre-wrap">Copyright © Your Website 2020 </small></div>
+    </section>
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
+    <div class="scroll-to-top d-lg-none position-fixed"><a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top"><i class="fa fa-chevron-up"></i></a></div>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <!-- Third party plugin JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <!-- Contact form JS-->
+    <script src="assets/mail/jqBootstrapValidation.js"></script>
+    <script src="assets/mail/contact_me.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
     <script type="text/javascript" src="js/jquery-x.x.x.min.js"></script>
     <script type="text/javascript" src="js/filter.js"></script>
       <!-- jQueryライブラリの読み込み-->   
