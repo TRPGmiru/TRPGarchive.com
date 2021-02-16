@@ -2,9 +2,11 @@
 body{
   background-color: #46CDCF !important;
   color: #48466D;
-  padding-top: 140px !important;
-  margin: 100px !important;
-  margin-top: 0px !important;
+}
+.wrapper{
+  padding-top: 140px ;
+  margin: 100px ;
+  margin-top: 0px ;
 }
 
 
@@ -87,4 +89,48 @@ color: #46CDCF;
 /*　丸ポチ消す */
 ul { 
   list-style: none; 
+  padding: 0px; /* ←追加 */
+  margin: 0px; /* ←追加 */
+}
+
+.caution{
+  display: none;
+}
+
+@media (orientation: portrait) and (max-width: 768px) {
+	/* 480px以下に適用されるCSS（スマホ用）デバイスが縦向きの場合の記述 */
+  .infomation{
+    display: none;
+  }
+  .wrapper{
+    display: none;
+  }
+  .caution{
+    display: block !important;
+  }
+}
+
+@media (orientation: landscape) and (max-width: 812px){
+  /* デバイスが横向きで、1024px以下の場合 */
+  .wrapper{
+    margin: 50px !important;
+  }
+  .h1,h1{
+    font-size:1.5rem !important;
+  } 
+  .h2,h2{
+    font-size:1.5rem !important;
+  }
+  .h3,h3{
+    font-size:1.5rem !important;
+  }
+  .h4,h4{
+    font-size:1.5rem !important;
+  }
+  .h5,h5{
+    font-size:1.5rem !important;
+  }
+  .h6,h6{
+    font-size:1.5rem !important;
+  }
 }

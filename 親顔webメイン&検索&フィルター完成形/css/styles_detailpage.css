@@ -72,10 +72,10 @@ a:hover{
     border:outset 1px #333333;
     background-color: #46CDCF;
     color: #F6F6F6;
-    width: 500px;
-    height: 46px;
+    width: 50%;
     text-align:center;
-    padding: 10px 0px;
+    padding: 20px 0px;
+    cursor: pointer;
 }
 
 .contents{
@@ -88,4 +88,43 @@ a:hover{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.caution{
+  display: none;
+}
+
+@media (orientation: portrait) and (max-width: 768px) {
+	/* 480px以下に適用されるCSS（スマホ用）デバイスが縦向きの場合の記述 */
+  .detail{
+    display: none;
+  }
+  .caution{
+    display: block !important;
+  }
+}
+
+@media (orientation: landscape) and (max-width: 812px){
+  /* デバイスが横向きで、1024px以下の場合 */
+  .h1,h1{
+    font-size:1.5rem !important;
+  } 
+  .h2,h2{
+    font-size:1.5rem !important;
+  }
+  .h3,h3{
+    font-size:1.5rem !important;
+  }
+  .h4,h4{
+    font-size:1.5rem !important;
+  }
+  .h5,h5{
+    font-size:0.5rem !important;
+  }
+  .h6,h6{
+    font-size:1.5rem !important;
+  }
+  body{
+    margin: 0px 80px !important;
+  }
 }
