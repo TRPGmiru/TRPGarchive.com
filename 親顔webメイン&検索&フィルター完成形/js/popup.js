@@ -5,10 +5,10 @@ $(function(){
       },'mouseup':function(){
         $(this).css('border-style','outset');
       },'click':function(){
-        $($(this).data('target')).css('display','block');
+        $($(this).data('target')).addClass('show');
       }
     });
     $('.popup .close').on('click',function(){
-      $(this).closest('.popup').css('display','none');
+      $(this).closest('.popup').removeClass('show');
     });
 });

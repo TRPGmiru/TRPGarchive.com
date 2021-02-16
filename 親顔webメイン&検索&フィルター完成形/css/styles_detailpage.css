@@ -57,11 +57,35 @@ a:hover{
     color: #46CDCF;
 }
 
-.popup{
-    display:none
+.popup {
+  display: none;
+  height: 100vh;
+  width: 100%;
+  background: black;
+  opacity: 0.9;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
+
 .button{
     border:outset 1px #333333;
-    width:200px;
+    background-color: #46CDCF;
+    color: #F6F6F6;
+    width: 500px;
+    height: 46px;
     text-align:center;
+    padding: 10px 0px;
+}
+
+.contents{
+  background: white;
+  padding: 30px;
+  width: 50%;
+}
+
+.show {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
