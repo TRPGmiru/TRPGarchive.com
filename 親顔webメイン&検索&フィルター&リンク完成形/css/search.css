@@ -1,8 +1,8 @@
 /*検索部分*/
 .search-area input[type="text"] {
-  padding: 5px 5px 3px;
-  font-size: 16px;
-  border: 1px solid #D6D6D6;
+  padding: 5px 5px 2px;
+  font-size: 20px;
+  border: 1px solid #48466d;
 }
 
 .search-area input[type="text"]:focus {
@@ -29,4 +29,31 @@
 }
 .list .hidden {
   display: none
+}
+
+
+.search_container{
+  box-sizing: border-box;
+}
+.search_container input[type="text"]{
+  border: 3px solid #48466d;
+  padding: 3px 5px;
+  border-radius: 40px;
+  height: 4.0em;
+  width: 490px;
+  overflow: hidden;
+}
+.search_container input[type="text"]:focus {
+  outline: 0;
+}
+.search_container input[type="submit"]{
+  cursor: pointer;
+  font-family: FontAwesome;
+  font-size: 1.3em;
+  border: none;
+  background: none;
+  color: #3879D9;
+  outline : none;
+  display: inline-block;
+  vertical-align: middle;
 }
