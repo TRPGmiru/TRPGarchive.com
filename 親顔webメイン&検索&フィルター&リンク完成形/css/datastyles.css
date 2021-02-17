@@ -1,0 +1,23 @@
+@charset "UTF-8";
+.session{
+margin:2em 0;
+position: relative;
+padding: 0.5em 1.5em;
+border-top: solid 2px black;
+border-bottom: solid 2px black;
+}
+.session:before, .session:after{
+content: '';
+position: absolute;
+top: -10px;
+width: 2px;
+height: -webkit-calc(100% + 20px);
+height: calc(100% + 20px);
+background-color: black;
+}
+.session:before {left: 10px;}
+.session:after {right: 10px;}
+.session p {
+margin: 0;
+padding: 0;
+}

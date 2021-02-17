@@ -1,0 +1,198 @@
+@charset "UTF-8";
+
+.circle{
+  position:relative;
+  display:inline-block;
+  overflow: hidden;
+  padding: 1px;
+}
+
+.circle:after{
+  content: "";
+  position: absolute;
+  z-index: 1;
+  width: 200px;
+  height: auto;
+  background: #46CDCF;
+  content: "Select";
+  text-align: center;
+  color: #f6f6f6;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  padding: 5px 10px;
+  left: -30px;
+  top: 3px;
+  transform: rotate(-30deg);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+}
+
+
+.check-box{
+  cursor: pointer;
+}
+
+.check-box input{
+  display: none;
+}
+
+input[type="checkbox"][value="ディズム"]{
+  margin-left: 40px;
+  -webkit-appearance: none;
+  position: relative;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background: url(../assets/img/dizm_circle.PNG);
+  border-radius: 50%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
+  background-size: contain;
+}
+
+input[type="checkbox"][value="ディズム"]:checked:before{
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background: url(../assets/img/dizm_check.PNG);
+  background-size: 200px 200px;
+  border-radius: 50%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+input[type="checkbox"][value="ぱぱびっぷ"]{
+  margin-left: 40px;
+  -webkit-appearance: none;
+  position: relative;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background: url(../assets/img/papav_circle.PNG);
+  border-radius: 50%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
+  background-size: contain;
+}
+
+input[type="checkbox"][value="ぱぱびっぷ"]:checked:before{
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background: url(../assets/img/papav_check.PNG);
+  background-size: 200px 200px;
+  border-radius: 50%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+input[type="checkbox"][value="むつー"]{
+  margin-left: 40px;
+  -webkit-appearance: none;
+  position: relative;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background: url(../assets/img/muchu_circle.PNG);
+  border-radius: 50%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
+  background-size: contain;
+}
+
+input[type="checkbox"][value="むつー"]:checked:before{
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background: url(../assets/img/muchu_check.PNG);
+  background-size: 200px 200px;
+  border-radius: 50%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+input[type="checkbox"][value="高生紳士"]{
+  margin-left: 40px;
+  -webkit-appearance: none;
+  position: relative;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background: url(../assets/img/takao_circle.PNG);
+  border-radius: 50%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
+  background-size: contain;
+}
+
+input[type="checkbox"][value="高生紳士"]:checked:before{
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background: url(../assets/img/takao_check.PNG);
+  background-size: 200px 200px;
+  border-radius: 50%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+input[type="checkbox"][value="夢咲刻夜"]{
+  margin-left: 40px;
+  -webkit-appearance: none;
+  position: relative;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background: url(../assets/img/tokiyan_circle.PNG);
+  border-radius: 50%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
+  background-size: contain;
+}
+
+input[type="checkbox"][value="夢咲刻夜"]:checked:before{
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background: url(../assets/img/tokiyan_check.PNG);
+  background-size: 200px 200px;
+  border-radius: 50%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+input[type="checkbox"][value="まだら牛"]{
+  margin-left: 40px;
+  -webkit-appearance: none;
+  position: relative;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background: url(../assets/img/usi_circle.PNG);
+  border-radius: 50%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
+  background-size: contain;
+}
+
+input[type="checkbox"][value="まだら牛"]:checked:before{
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background: url(../assets/img/usi_check.PNG);
+  background-size: 200px 200px;
+  border-radius: 50%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}

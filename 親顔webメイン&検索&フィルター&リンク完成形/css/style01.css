@@ -1,0 +1,136 @@
+/* 基本の文字色と背景色 */
+body{
+  background-color: #46CDCF !important;
+  color: #48466D;
+}
+.wrapper{
+  padding-top: 140px ;
+  margin: 100px ;
+  margin-top: 0px ;
+}
+
+
+/* 日付とセッション名 */
+h1 {
+  position: relative;
+  overflow: hidden;
+  padding: 1.5rem 2rem 1.5rem 310px;
+  border-top: 3px solid #48466D;
+}
+
+h1:before {
+  position: absolute;
+  top: -150%;
+  left: -100px;
+  width: 390px;
+  height: 300%;
+  content: '';
+  -webkit-transform: rotate(25deg);
+  transform: rotate(25deg);
+  background: #48466D;
+}
+
+h1 span {
+  font-size: 40px;
+  font-size: 2rem;
+  position: absolute;
+  z-index: 1;
+  top: 1;
+  left: 0;
+  display: block;
+  padding-top: 0px;
+  padding-left: 40px;
+  color: #F6F6F6;
+}
+
+/* PL～埋め込みまでの内容 */
+.detail{
+padding-left: 40px;
+}
+
+/* １セッションのブロック */
+.session{
+margin:2em 0;
+position: relative;
+padding: 0.5em 1.5em;
+border-top: solid 2px #48466D;
+border-bottom: solid 2px #48466D;
+background-color: #F6F6F6;
+}
+.session:before, .session:after{
+content: '';
+position: absolute;
+top: -10px;
+width: 2px;
+height: -webkit-calc(100% + 20px);
+height: calc(100% + 20px);
+background-color: #48466D;
+}
+.session:before {left: 10px;}
+.session:after {right: 10px;}
+.session p {
+margin: 0;
+padding: 0;
+}
+
+/* リンクについて */
+a:link{
+color: #48466D;
+}
+
+a:visited{
+color: #3D84A8;
+}
+
+a:hover{
+color: #46CDCF;
+}
+
+/*　丸ポチ消す */
+ul { 
+  list-style: none; 
+  padding: 0px; /* ←追加 */
+  margin: 0px; /* ←追加 */
+}
+
+.caution{
+  display: none;
+}
+
+@media (orientation: portrait) and (max-width: 768px) {
+	/* 480px以下に適用されるCSS（スマホ用）デバイスが縦向きの場合の記述 */
+  .infomation{
+    display: none;
+  }
+  .wrapper{
+    display: none;
+  }
+  .caution{
+    display: block !important;
+  }
+}
+
+@media (orientation: landscape) and (max-width: 812px){
+  /* デバイスが横向きで、1024px以下の場合 */
+  .wrapper{
+    margin: 50px !important;
+  }
+  .h1,h1{
+    font-size:1.5rem !important;
+  } 
+  .h2,h2{
+    font-size:1.5rem !important;
+  }
+  .h3,h3{
+    font-size:1.5rem !important;
+  }
+  .h4,h4{
+    font-size:1.5rem !important;
+  }
+  .h5,h5{
+    font-size:1.5rem !important;
+  }
+  .h6,h6{
+    font-size:1.5rem !important;
+  }
+}

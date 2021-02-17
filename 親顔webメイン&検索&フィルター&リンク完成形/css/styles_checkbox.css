@@ -1,0 +1,187 @@
+@charset "UTF-8";
+body{
+  background-color: #46CDCF !important;
+  color: #48466D;
+  padding-top: 150px !important;
+  margin: 100px !important;
+  margin-top: 0px !important;
+}
+
+
+
+img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  /*box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);*/
+}
+
+.check-box{
+  cursor: pointer;
+}
+
+.check-box input{
+  display: none;
+}
+
+input[type="checkbox"][value="ディズム"]{
+  margin-left: 40px;
+  -webkit-appearance: none;
+  position: relative;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background: url(/Users/miku/Desktop/TRPGarcive.com/assets/img/dizm_circle.PNG);
+  border-radius: 50%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
+  background-size: contain;
+}
+
+input[type="checkbox"][value="ディズム"]:checked:before{
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background: url(/Users/miku/Desktop/TRPGarcive.com/assets/img/dizm_check.PNG);
+  background-size: 200px 200px;
+  border-radius: 50%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+input[type="checkbox"][value="ぱぱびっぷ"]{
+  margin-left: 40px;
+  -webkit-appearance: none;
+  position: relative;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background: url(/Users/miku/Desktop/TRPGarcive.com/assets/img/papav_circle.PNG);
+  border-radius: 50%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
+  background-size: contain;
+}
+
+input[type="checkbox"][value="ぱぱびっぷ"]:checked:before{
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background: url(/Users/miku/Desktop/TRPGarcive.com/assets/img/papav_check.PNG);
+  background-size: 200px 200px;
+  border-radius: 50%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+input[type="checkbox"][value="むつー"]{
+  margin-left: 40px;
+  -webkit-appearance: none;
+  position: relative;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background: url(/Users/miku/Desktop/TRPGarcive.com/assets/img/muchu_circle.PNG);
+  border-radius: 50%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
+  background-size: contain;
+}
+
+input[type="checkbox"][value="むつー"]:checked:before{
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background: url(/Users/miku/Desktop/TRPGarcive.com/assets/img/muchu_check.PNG);
+  background-size: 200px 200px;
+  border-radius: 50%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+input[type="checkbox"][value="高生紳士"]{
+  margin-left: 40px;
+  -webkit-appearance: none;
+  position: relative;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background: url(/Users/miku/Desktop/TRPGarcive.com/assets/img/takao_circle.PNG);
+  border-radius: 50%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
+  background-size: contain;
+}
+
+input[type="checkbox"][value="高生紳士"]:checked:before{
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background: url(/Users/miku/Desktop/TRPGarcive.com/assets/img/takao_check.PNG);
+  background-size: 200px 200px;
+  border-radius: 50%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+input[type="checkbox"][value="夢咲刻夜"]{
+  margin-left: 40px;
+  -webkit-appearance: none;
+  position: relative;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background: url(/Users/miku/Desktop/TRPGarcive.com/assets/img/tokiyan_circle.PNG);
+  border-radius: 50%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
+  background-size: contain;
+}
+
+input[type="checkbox"][value="夢咲刻夜"]:checked:before{
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background: url(/Users/miku/Desktop/TRPGarcive.com/assets/img/tokiyan_check.PNG);
+  background-size: 200px 200px;
+  border-radius: 50%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+input[type="checkbox"][value="まだら牛"]{
+  margin-left: 40px;
+  -webkit-appearance: none;
+  position: relative;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background: url(/Users/miku/Desktop/TRPGarcive.com/assets/img/usi_circle.PNG);
+  border-radius: 50%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
+  background-size: contain;
+}
+
+input[type="checkbox"][value="まだら牛"]:checked:before{
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background: url(/Users/miku/Desktop/TRPGarcive.com/assets/img/usi_check.PNG);
+  background-size: 200px 200px;
+  border-radius: 50%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
